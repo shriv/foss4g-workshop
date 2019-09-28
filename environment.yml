@@ -1,0 +1,31 @@
+# Run `conda-env create -f environment.yml`
+name: foss4g-workshop
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.6
+  - bokeh
+  - cartopy
+  - dill
+  - folium
+  - geopandas
+  - ipython
+  - ipywidgets
+  - jupyter
+  - jupyterlab
+  - nbconvert
+  - networkx
+  - numba
+  - osmnx
+  - palettable
+  - pandas
+  - pandana
+  - pip
+  - pysal
+  - rasterio
+  - scikit-learn
+  - seaborn
+  - statsmodels
+  - xlrd
+  - xlsxwriter
