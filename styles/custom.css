@@ -38,6 +38,11 @@
     ul li li {
         color: #646464;
        }
+    table, td {
+     border: 1px solid black;
+     border-collapse: collapse;
+     font-size: 130%;
+   }
     div.text_cell_render{
         font-family: Computer Modern, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
         line-height: 145%;
