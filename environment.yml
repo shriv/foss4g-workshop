@@ -2,9 +2,12 @@
 name: foss4g-workshop
 channels:
   - conda-forge
+  - anaconda
 
 dependencies:
   - python=3.6
+  - basemap
+  - basemap-data-hires
   - bokeh
   - cartopy
   - dill
