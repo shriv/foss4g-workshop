@@ -10,6 +10,11 @@ The foundations notebook runs through the necessary technical background for the
 
 The applications notebook introduces routes and routing. This simple technique can be then used to analyse catchments, accessibility and even identify popular / arterial roads. There are no exercises in this part but there are several discussion questions. The discussions are an integral part of the workshop. They are an opportunity to query if the techniques are useful for particular types of questions and also to learn from each others' experiences.
 
+# Data links
+- [Playgrounds](https://data-wcc.opendata.arcgis.com/datasets/wcc-playgrounds)
+  - Spreadsheet _and_ Shapefile
+- [Suburbs](https://data-wcc.opendata.arcgis.com/datasets/wcc-suburbs-boundaries)
+-
 # Instructions to run the notebooks
 - Download this repo
 - Open a terminal and run `conda env create -f environment.yml`
