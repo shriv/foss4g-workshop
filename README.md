@@ -20,9 +20,14 @@ The applications notebook introduces routes and routing. This simple technique c
   - `conda install -c conda-forge basemap`
 - Peter Scarth has provided another workaround for the error. Add the following to the top of the Applications notebook:
 
-`import requests`
-`import os`
-`os.environ['PROJ_LIB'] = os.path.abspath('../data')`
-`url = 'https://raw.githubusercontent.com/matplotlib/basemap/master/lib/mpl_toolkits/basemap/data/epsg'`
-`r = requests.get(url, allow_redirects=True)`
-`open(os.path.join(os.environ['PROJ_LIB'],'epsg'), 'wb').write(r.content)`
+  `import requests`
+
+  `import os`
+
+  `os.environ['PROJ_LIB'] = os.path.abspath('../data')`
+
+  `url = 'https://raw.githubusercontent.com/matplotlib/basemap/master/lib/mpl_toolkits/basemap/data/epsg'`
+
+  `r = requests.get(url, allow_redirects=True)`
+
+  `open(os.path.join(os.environ['PROJ_LIB'],'epsg'), 'wb').write(r.content)`
