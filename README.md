@@ -14,7 +14,7 @@ The applications notebook introduces routes and routing. This simple technique c
 - [Playgrounds](https://data-wcc.opendata.arcgis.com/datasets/wcc-playgrounds)
   - Spreadsheet _and_ Shapefile
 - [Suburbs](https://data-wcc.opendata.arcgis.com/datasets/wcc-suburbs-boundaries)
--
+
 # Instructions to run the notebooks
 - Download this repo
 - Open a terminal and run `conda env create -f environment.yml`
